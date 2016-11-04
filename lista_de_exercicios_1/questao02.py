@@ -1,5 +1,5 @@
-#Questao 2
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
-valor = float(input("Digite valor em metros:"))
-print("Em milmetros e igual a:", valor * 1000)
-
+valor = float(input('Digite valor em metros:'))
+print('Em milmetros e igual a: %dmm .' % (valor * 1000))
